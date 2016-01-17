@@ -6,8 +6,8 @@
     exclude-result-prefixes="office table text"
     version="1.0"
     >
-    <!-- VERY simple stylesheet to export Open Document Spreadsheets
-     into XML with first row (column names) used as tag names -->
+    <!-- VERY simple stylesheet to export Open Document Spreadsheets into XML with first row 
+        (column names) used as tag names -->
     <xsl:output indent="yes" method="xml" />
     <xsl:strip-space elements="*"/>
     <!-- Export ods to xml with proper tag names -->
